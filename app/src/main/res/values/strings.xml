@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CocktailFever</string>
+    <string name="cocktailfever">CocktailFever</string>
+    <string name="my_ingredients">My Ingredients</string>
+    <string name="cocktail_recipies">Cocktail Recipies</string>
+    <string name="cocktail_recepies">Cocktail Recepies</string>
+    <string name="cocktail_recipes">Cocktail Recipes</string>
+    <string name="settings">Settings</string>
+</resources>
