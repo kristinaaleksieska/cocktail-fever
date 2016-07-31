@@ -1,6 +1,7 @@
 package com.example.marija.cocktailfever;
 
 
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +15,7 @@ import java.util.List;
 class myAdapter extends ArrayAdapter<Cocktail> {
 
 
-    public myAdapter(MainActivity context, List<Cocktail> values) {
+    public myAdapter(AppCompatActivity context, List<Cocktail> values) {
         super(context, R.layout.row_layout2, values);
     }
 
@@ -39,6 +40,9 @@ class myAdapter extends ArrayAdapter<Cocktail> {
                 break;
             case 'c':
                 theImageView.setImageResource(R.drawable.letter_c);
+                break;
+            case 'd':
+                theImageView.setImageResource(R.drawable.letter_d);
                 break;
             case 'e':
                 theImageView.setImageResource(R.drawable.letter_e);
@@ -105,9 +109,6 @@ class myAdapter extends ArrayAdapter<Cocktail> {
                 break;
             case 'z':
                 theImageView.setImageResource(R.drawable.letter_z);
-                break;
-            case 'd':
-                theImageView.setImageResource(R.drawable.letter_d);
                 break;
 
         }
