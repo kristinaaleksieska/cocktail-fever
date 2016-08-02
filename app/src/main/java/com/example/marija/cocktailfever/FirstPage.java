@@ -33,7 +33,7 @@ public class FirstPage extends AppCompatActivity {
                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                startActivity(i);
             }
-        }, 3000);
+        }, 2000);
     }
 
 }

@@ -38,7 +38,7 @@ public class CocktailData {
         bloody_maryIngredients.add("35 ml Tomato Juice");
         bloody_maryIngredients.add("splash Red Wine");
         bloody_maryIngredients.add("6 splashes Worcestershire sauce");
-        bloody_maryIngredients.add("10 dashes Tobasco sauce");
+        bloody_maryIngredients.add("10 dashes Tabasco sauce");
         bloody_maryIngredients.add("25 ml Lemon Juice");
         bloody_maryIngredients.add("10 dashes Salt");
         bloody_maryIngredients.add("10 dashes Pepper");
@@ -66,7 +66,8 @@ public class CocktailData {
         List<String> mai_taiIngredients = new ArrayList<>();
         mai_taiIngredients.add("20 ml Dark Rum");
         mai_taiIngredients.add("20 ml Light Rum");
-        mai_taiIngredients.add("splash Demerara 20 ml Triple Sec");
+        mai_taiIngredients.add("Demerara Rum");
+        mai_taiIngredients.add("20 ml Triple Sec");
         mai_taiIngredients.add("20 ml Lime Juice");
         mai_taiIngredients.add("10 ml Orgeat Syrup");
         mai_taiIngredients.add("Mint sprig");

@@ -1,13 +1,13 @@
 package com.example.marija.cocktailfever;
 
 
-        import android.content.Intent;
-        import android.net.Uri;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-        import android.support.v7.widget.Toolbar;
-        import android.text.Layout;
-        import android.view.Menu;
+import android.support.v7.widget.Toolbar;
+import android.text.Layout;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -15,12 +15,13 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 import android.app.Activity;
+
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
-        import java.util.ArrayList;
-        import java.util.List;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -52,19 +53,16 @@ public class MainActivity extends AppCompatActivity {
         ListView listaKokteli = (ListView) findViewById(R.id.listaKokteli);
 
         listaKokteli.setAdapter(theAdapter);
+
         listaKokteli.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                                                        @Override
-                                                        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                                                            Cocktail item = (Cocktail) parent.getItemAtPosition(position);
-                                                            String izbranKoktel = "You selected " +
-                                                                    item.getName(); // Parent ti e izgledot na listata kako niza, i se zema elementot na pozicija position (position e
-                                                            //pozicijata na elementot shto si go kliknala), se kastira vo Cocktail poshto vrakja Object.
-                                                            Toast.makeText(MainActivity.this, izbranKoktel, Toast.LENGTH_SHORT).show();
-                                                            Intent i = new Intent(MainActivity.this, CocktailInfoActivity.class);
-                                                            i.putExtra("cocktail", item);
-                                                            startActivity(i);
-                                                        }
-                                                    });
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Cocktail item = (Cocktail) adapterView.getItemAtPosition(i);
+                Intent intent = new Intent(MainActivity.this, CocktailInfoActivity.class);
+                intent.putExtra("cocktail", item);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

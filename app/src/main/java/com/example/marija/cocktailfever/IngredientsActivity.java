@@ -33,14 +33,56 @@ public class IngredientsActivity extends AppCompatActivity {
 
     protected void displayListView() {
         ArrayList<Ingredient> ingredients = new ArrayList<>();
-        ingredients.add(new Ingredient("vodka", false));
-        ingredients.add(new Ingredient("lemon juice", false));
-        ingredients.add(new Ingredient("sugar", false));
-        ingredients.add(new Ingredient("gin", false));
+        ingredients.add(new Ingredient("brown sugar", false));
+        ingredients.add(new Ingredient("cachaca", false));
+        ingredients.add(new Ingredient("campari", false));
+        ingredients.add(new Ingredient("champagne", false));
+        ingredients.add(new Ingredient("chocolate powder", false));
+        ingredients.add(new Ingredient("citrus vodka", false));
+        ingredients.add(new Ingredient("coconut cream", false));
+        ingredients.add(new Ingredient("coffee bean", false));
         ingredients.add(new Ingredient("coffee liqueur", false));
-        ingredients.add(new Ingredient("irish cream liqueur", false));
+        ingredients.add(new Ingredient("cranberry juice", false));
+        ingredients.add(new Ingredient("cream", false));
+        ingredients.add(new Ingredient("Crème de Cassis", false));
+        ingredients.add(new Ingredient("cucumber slices", false));
+        ingredients.add(new Ingredient("dark rum", false));
+        ingredients.add(new Ingredient("Demerara rum", false));
         ingredients.add(new Ingredient("dry vermouth", false));
-        ingredients.add(new Ingredient("lemon twist", false));
+        ingredients.add(new Ingredient("gin", false));
+        ingredients.add(new Ingredient("ginger beer", false));
+        ingredients.add(new Ingredient("grenadine syrup", false));
+        ingredients.add(new Ingredient("irish cream liqueur", false));
+        ingredients.add(new Ingredient("lemon", false));
+        ingredients.add(new Ingredient("lemon juice", false));
+        ingredients.add(new Ingredient("light rum", false));
+        ingredients.add(new Ingredient("lime", false));
+        ingredients.add(new Ingredient("lime juice", false));
+        ingredients.add(new Ingredient("milk", false));
+        ingredients.add(new Ingredient("mint leaves", false));
+        ingredients.add(new Ingredient("mint sprig", false));
+        ingredients.add(new Ingredient("orange", false));
+        ingredients.add(new Ingredient("orange juice", false));
+        ingredients.add(new Ingredient("orgeat syrup", false));
+        ingredients.add(new Ingredient("pepper", false));
+        ingredients.add(new Ingredient("peppered vodka", false));
+        ingredients.add(new Ingredient("pineapple juice", false));
+        ingredients.add(new Ingredient("red wine", false));
+        ingredients.add(new Ingredient("salt", false));
+        ingredients.add(new Ingredient("simple syrup", false));
+        ingredients.add(new Ingredient("soda water", false));
+        ingredients.add(new Ingredient("strawberries", false));
+        ingredients.add(new Ingredient("sugar syrup", false));
+        ingredients.add(new Ingredient("sweet vermouth", false));
+        ingredients.add(new Ingredient("tabasco sauce", false));
+        ingredients.add(new Ingredient("tequila", false));
+        ingredients.add(new Ingredient("tomato juice", false));
+        ingredients.add(new Ingredient("triple sec", false));
+        ingredients.add(new Ingredient("vodka", false));
+        ingredients.add(new Ingredient("white rum", false));
+        ingredients.add(new Ingredient("worcestershire sauce", false));
+
+
 
         ingredientsAdapter = new IngredientsListAdapter(this, R.layout.ingredient_info, ingredients);
         ListView ingredientsList = (ListView) findViewById(R.id.ingredients_list);
