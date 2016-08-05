@@ -62,8 +62,7 @@ public class IngredientsActivity extends AppCompatActivity {
         ingredients.add(new Ingredient("lime", false));
         ingredients.add(new Ingredient("lime juice", false));
         ingredients.add(new Ingredient("milk", false));
-        ingredients.add(new Ingredient("mint leaves", false));
-        ingredients.add(new Ingredient("mint sprig", false));
+        ingredients.add(new Ingredient("mint", false));
         ingredients.add(new Ingredient("orange", false));
         ingredients.add(new Ingredient("orange juice", false));
         ingredients.add(new Ingredient("orgeat syrup", false));
