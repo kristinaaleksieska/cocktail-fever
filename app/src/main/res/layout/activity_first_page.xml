@@ -11,10 +11,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
-        android:text="@string/cocktailfever"
-        android:textColor="@color/abc_primary_text_disable_only_material_light"
-        android:textSize="36dp"
-        android:textStyle="bold|italic" />
+        android:layout_marginBottom="50dp" />
+  //     android:text="@string/cocktailfever"
+  //      android:textColor="@color/abc_primary_text_disable_only_material_light"
+  //      android:textSize="36dp"
+  //      android:textStyle="bold|italic"
+
 
 </RelativeLayout>
